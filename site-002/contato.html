@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/952778b0ac.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Projeto 02 Seguindo tutorial</title>
+    <!--SEO-->
+    <meta name="description" content="#" />
+    <!--SMO-->
+    <meta property="og:title" content="#">
+    <meta property="og:site_name" content="#">
+    <meta property="og:description" content="#">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="#">
+    <meta property="og:image:type" content="image/jpeg">   
+</head>
+<body>
+<header>
+    <div class="container">
+    <div class="logo"><a href="index.html"><h2>LogoMarca</h2></a></div>
+    <nav class="menu-desktop">
+    <ul>
+        <li ><a href="index.html">Home</a></li>
+        <li ><a href="sobre.html">Sobre</a></li>
+        <li class="selected"><a href="contato.html">Contato</a></li>
+    </ul>
+    </nav>
+    <nav class="menu-mobile">
+        <h2><i class="fas fa-bars"></i></h2>
+        <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li ><a href="sobre.html">Sobre</a></li>
+            <li class="selected"><a href="contato.html">Contato</a></li>
+        </ul>
+        
+    </nav>
+    
+    </div>
+    <div class="clear"></div>
+
+</header>
+<section style="background-image: url(bg.jpg);" class="title-page">
+    <div class="overlay_title-page"></div>
+    <div class="container">
+    <h2>Contato</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper tellus purus, eget commodo nisi efficitur vitae. Suspendisse vel malesuada lacus. Ut placerat, elit quis condimentum malesuada, nulla nibh molestie tellus, sit amet congue quam risus nec neque. Vivamus mattis, risus ac vehicula interdum, tellus sapien vehicula dolor</p>
+</div><!--container-->
+</section><!--title-page-->
+<section class="contato">
+    <div class="container">
+        
+        <div class="w100 formulario">
+            <h2>Entre em Contato</h2>
+            <form method="post">
+                <div class="w50">
+                    <input placeholder="Nome" type="text" required/>
+                </div>
+                <div class="w50">
+                    <input placeholder="Sobrenome" type="text" required/>
+                </div>
+                <div class="w100">
+                    <input  placeholder="E-mail" type="email" required/>
+                </div>
+                <div class="w100">
+                    <textarea placeholder="Sua Mensagem..."></textarea>
+                </div>
+                <div class="clear"></div>
+            </form>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+<footer class="footer1">
+    <div class="container">
+        <div class="w33">
+            <h2>Aonde estamos</h2>
+            <p><i class="fas fa-map-pin"></i><span>Rua dos Bobos N°0, Casa Sem Rede</span></p>
+            <p><i class="fas fa-phone-alt"></i><span>(66)96666-6666</span></p>
+        </div><!--w33-->
+        <div class="w33">
+            <h2>Links Úteis</h2>
+                <a href="#">Lorem ipsum</a>
+                <a href="#">Lorem ipsum</a>
+        </div><!--w33-->
+        <div class="w33">
+            <h2>Conecte-se Conosco</h2>
+            <div class="group-icons">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-deviantart"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div><!--group-icons-->
+
+            
+        </div><!--w33-->
+        <div class="clear"></div>
+    </div><!--container-->
+</footer>
+<footer class="footer2">
+    <div class="container">
+        <p>Todos os Direitos Resevados</p>
+    </div>
+</footer>
+<script src="jquery.js"></script>
+<script>
+$('nav.menu-mobile h2').click(function(){
+$('nav.menu-mobile ul').slideToggle();
+}
+
+);
+</script>
+</body>
+</html>
